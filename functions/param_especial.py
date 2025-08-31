@@ -51,3 +51,5 @@ def exibir_resultado(a, b, funcao):
 
 #   Call the function by passing it as a parameter
 exibir_resultado(10, 20, somar)
+
+# local scope and global escope
