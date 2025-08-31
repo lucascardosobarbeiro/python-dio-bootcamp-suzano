@@ -1,0 +1,21 @@
+[project]
+name = "simple_image_processor"
+version = "0.1.0"
+authors = [
+    { name="Seu Nome", email="seu@email.com" },
+]
+description = "Um pacote simples para processamento de imagens em Python."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Pillow>=9.0.0",
+    "numpy>=1.21.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/seu_usuario/simple_image_processor"
